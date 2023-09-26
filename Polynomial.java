@@ -11,7 +11,7 @@ public class Polynomial{
         this.coefficients = new double[length];
         for (int i = 0; i < length; i++){        
             this.coefficients[i] = coefficients[i];
-        }
+        }//s
     }
     // iv - method - add
     public Polynomial add(Polynomial polynomial){
